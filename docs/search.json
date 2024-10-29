@@ -1,0 +1,324 @@
+[
+  {
+    "objectID": "presentations/welcome/index.html#image",
+    "href": "presentations/welcome/index.html#image",
+    "title": "Welcome To My Blog",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "presentations/welcome/index.html#last-words",
+    "href": "presentations/welcome/index.html#last-words",
+    "title": "Welcome To My Blog",
+    "section": "Last words",
+    "text": "Last words\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 22, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nInstalasi Paket di R\n\n\n\n\n\n\nr\n\n\npackages\n\n\ndata management\n\n\n\n\n\n\n\n\n\nOct 22, 2024\n\n\nDimas BC Wicaksono\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 19, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html",
+    "href": "posts/instalasi-paket-r/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "Pendahuluan\nPaket untuk Manajemen Data\nInstalasi dan Aktivasi Paket\nContoh Penggunaan\n\n\nreadr, readxl, dan haven\ntidyverse\nggplot2\n\n\nKesimpulan"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#instalasi-paket",
+    "href": "posts/instalasi-paket-r/index.html#instalasi-paket",
+    "title": "Post With Code",
+    "section": "Instalasi Paket",
+    "text": "Instalasi Paket\nInstalasi paket pada R memerlukan koneksi internet, karena paket diunduh dari sebuah server. Fungsi untuk melakukan instalisasi paket adalah install.packages(\"nama.paket\", dependencies = TRUE). Tambahan independencies = TRUE ditujukan agar proses instalasi paket juga diikuti dengan instalasi paket-paket yang lain seperti yang dicontohkan pada gambar berikut:\n\n\n\n\n\nBerikut adalah contoh instalasi paket tidyverse:\n\n# Jalankan fungsi berikut pada console\noptions(timeout = 10000) # dibutuhkan saat koneksi lambat\n\ninstall.packages(\"tidyverse\")\n\nBeberapa paket memerlukan instalasi yang cukup lama karena kecepatan download, ukuran paket yang cukup besar, dan atau banyak paket yang juga harus diinstal (dependencies)"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#aktivasi-paket",
+    "href": "posts/instalasi-paket-r/index.html#aktivasi-paket",
+    "title": "Post With Code",
+    "section": "Aktivasi Paket",
+    "text": "Aktivasi Paket\nFungsi-fungsi pada paket yang telah terinstal hanya dapat digunakan jika paket telah diaktifkan. Untuk mengaktifkan paket, gunakan fungsi library(nama.paket).\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#contoh-penggunaan-readr",
+    "href": "posts/instalasi-paket-r/index.html#contoh-penggunaan-readr",
+    "title": "Post With Code",
+    "section": "Contoh Penggunaan readr",
+    "text": "Contoh Penggunaan readr"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#contoh-penggunaan-readxl",
+    "href": "posts/instalasi-paket-r/index.html#contoh-penggunaan-readxl",
+    "title": "Post With Code",
+    "section": "Contoh Penggunaan readxl",
+    "text": "Contoh Penggunaan readxl"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#contoh-penggunaan-haven",
+    "href": "posts/instalasi-paket-r/index.html#contoh-penggunaan-haven",
+    "title": "Post With Code",
+    "section": "Contoh Penggunaan haven",
+    "text": "Contoh Penggunaan haven"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#paket-untuk-manajemen-data",
+    "href": "posts/instalasi-paket-r/index.html#paket-untuk-manajemen-data",
+    "title": "Post With Code",
+    "section": "Paket untuk Manajemen Data",
+    "text": "Paket untuk Manajemen Data\n\ntidyverse\n\nTidyverse merupakan paket lengkap yang terdiri dari beberapa paket untuk keperluan manajemen data seperti dplyr dan tidyr.\n\nggplot2\n\nPaket ggplot2 ditujukan untuk menampilkan visualisasi yang lebih baik dengan tambahan kostumisasi yang lebih lengkap dibandingkan fungsi plot()\n\nreadr, readxl, dan haven\n\nMerupakan paket yang diperlukan untuk melakukan import dan export data dengan format csv, xlsx, spv, dsb."
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse",
+    "href": "posts/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse",
+    "title": "Post With Code",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\nKita akan mencoba beberapa fungsi yang dapat digunakan pada paket tidyverse. Seperti yang telah dijelaskan sebelumnya bahwa paket tidyverse digunakan untuk melakukan manajemen data.\nPertama kita akan siapkan data sederhana yang akan kita gunakan selanjutnya:\n\nhipertensi &lt;- rep(c(\"Ya\", \"Tidak\"), 5)\nparitas &lt;- c(5, 3, 1, 3, 2, 2, 7, 2, 0, 1)\nusia &lt;- c(23, 27, 28, 31, 31, NA, 29, 23, 37, 22)\npendidikan &lt;- c(\"SD\", \"SD\", \"SMP\", \"SMA\", \"SD\", \"SMP\", \"SMA\", \"SMA\", \"SD\", \"SMA\")\nekonomi &lt;- c(\"Rendah\", \"Rendah\", \"Menengah\", \"Rendah\", \"Menengah\", \"Menengah\", \"Tinggi\", \"Menengah\", \"Tinggi\", \"Rendah\")\n\nmydata &lt;- data.frame(\n  hipertensi,\n  paritas,\n  usia,\n  pendidikan,\n  ekonomi\n)\n\n\n\n\n\n\nhipertensi\nparitas\nusia\npendidikan\nekonomi\n\n\n\n\nYa\n5\n23\nSD\nRendah\n\n\nTidak\n3\n27\nSD\nRendah\n\n\nYa\n1\n28\nSMP\nMenengah\n\n\nTidak\n3\n31\nSMA\nRendah\n\n\nYa\n2\n31\nSD\nMenengah\n\n\nTidak\n2\nNA\nSMP\nMenengah\n\n\nYa\n7\n29\nSMA\nTinggi\n\n\nTidak\n2\n23\nSMA\nMenengah\n\n\nYa\n0\n37\nSD\nTinggi\n\n\nTidak\n1\n22\nSMA\nRendah\n\n\n\n\n\n\n\n\nContoh Fungsi filter()\nFungsi filter() digunakan untuk menyeleksi data berdasarkan ketentuan:\n\n==, jika sama dengan nilai tertentu\n&gt;= dan &lt;=, jika lebih/kurang dari sama dengan nilai tertentu\n&gt; dan &lt;, jika lebih/kurang dari nilai tertentu\n!=, jika tidak sama dengan nilai tertentu\n\nSemisal kita ingin memilih data dengan usia yang kurang dari 30 tahun:\n\nmydata %&gt;% \n  filter(usia &lt; 30)\n\n\n\n  hipertensi paritas usia pendidikan  ekonomi\n1         Ya       5   23         SD   Rendah\n2      Tidak       3   27         SD   Rendah\n3         Ya       1   28        SMP Menengah\n4         Ya       7   29        SMA   Tinggi\n5      Tidak       2   23        SMA Menengah\n6      Tidak       1   22        SMA   Rendah\n\n\n[Latihan Mandiri] Sekarang kita dapat melakukan percobaan penyeleksian dengan berbagai macam ketentuan:\n\nparitas lebih dari samadengan 3\nhipertensi sama dengan \"YA\"\nekonomi rendah\n\n\nPenggunaan ==, !=, &lt;, &gt;, &lt;=, &gt;=, merupakan bagian dari operator perbandingan. Penjelasan lebih lengkap dapat dipelajari dari berbagai sumber seperti:\n\nDatacamp: Operators in R\nW3School: R Operators\nPanduan Lengkap Analisis Statistika Menggunakan R Commander"
+  },
+  {
+    "objectID": "posts/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2",
+    "href": "posts/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2",
+    "title": "Post With Code",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nPastikan bahwa paket ggplot2 telah aktif:\n\nlibrary(ggplot2)\n\nSelanjutnya kita akan menggunakan data iris yang telah tersedia di R. Gunakan kode berikut untuk mengaktifkan data iris:\n\ndata(iris)\n\nKemudian kita akan mencoba membuat diagram pencar dan diagram kotak.\n\nDiagram Pencar\n\n# Diagram Pencar\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Sepal.Length, y = Sepal.Width)) + \n  \n  ## Jenis Diagram: Pencar\n  geom_point() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()\n\n\n\n\n\n\n\n\n\n\nDiagram Kotak\n\n# Diagram Kotak\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Species, y = Sepal.Length)) + \n  \n  ## Jenis Diagram: Boxplot\n  geom_boxplot() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-1",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-1",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\n\n\nProgram R dapat digunakan untuk melakukan komputasi berbagai metode dalam statistika.\nSebagai contoh, kita akan melakukan perhitungan untuk rata-rata sampel. Formula yang digunakan adalah:\n\n\\[\n\\bar{x} = \\frac{\\sum_{i = 1}^n x_i}{n}\n\\]"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-2",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-2",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nFormula ke fungsi:\n\nrataan &lt;- function(data.vektor) {\n  \n  rata.rata &lt;- 0             # inisiasi nilai awal\n  n &lt;- length(data.vektor)   # banyaknya data\n  \n  # menjumlahkan semua data pada data.vektor\n  for (i in 1:n) {\n    rata.rata &lt;- rata.rata + data.vektor[i]\n  }\n  \n  # setelah mendapatkan penjumlahan semua data,\n  # dibagi dengan banyaknya data\n  rata.rata &lt;- rata.rata/n\n  \n  return(rata.rata)\n}"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-3",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-3",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nSelanjutnya akan kita coba untuk menghitung rata-rata dari sebuah vektor:\n\nmydata &lt;- c(6, 7, 6, 8, 2, 6, 5, 5, 3, 9)\nrataan(mydata)\n\n\n\n[1] 5.7"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-4",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-4",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikutnya kita akan gunakan fungsi yang sudah tersedia pada R, yaitu mean():\n\nmydata &lt;- c(6, 7, 6, 8, 2, 6, 5, 5, 3, 9)\nmean(mydata)\n\n[1] 5.7\n\n\nDengan fungsi-fungsi yang telah tersedia (tersedia dalam sebuah paket fungsi), kita mampu melakukan pengolahan data dengan lebih cepat tanpa harus menyusun fungsi-fungsi yang rumit."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-5",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-5",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nNamun anda harus tetap menyusun kode-kode sesuai dengan tujuan analisis anda. Seperti dalam mempersiapkan data untuk dianalisis, menyusun grafis yang mudah dipahami, eksplorasi data untuk mempersiapkan analisis, dsb."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-6",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-6",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikut contoh diagram pencar dengan paket base:\n\ndata(iris)\n\nplot(iris$Sepal.Length, iris$Sepal.Width, \n     main = \"Diagram Titik\", \n     xlab = \"Sepal.Length\", \n     ylab = \"Sepal.Width\")"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-7",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-7",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-8",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-8",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikut contoh diagram pencar dengan paket ggplot2:\n\ndata(iris)\n\nggplot(iris, aes(Sepal.Length, Sepal.Width)) +\n  geom_point(aes(color = Species)) +\n  ggtitle(label = \"Diagram Titik\", subtitle = \"Latihan R\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#pendahuluan-9",
+    "href": "presentations/instalasi-paket-r/index.html#pendahuluan-9",
+    "title": "Instalasi Paket di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-untuk-manajemen-data",
+    "href": "presentations/instalasi-paket-r/index.html#paket-untuk-manajemen-data",
+    "title": "Instalasi Paket di R",
+    "section": "Paket untuk Manajemen Data",
+    "text": "Paket untuk Manajemen Data\n\ntidyverse\n\nTidyverse merupakan paket lengkap yang terdiri dari beberapa paket untuk keperluan manajemen data seperti dplyr dan tidyr.\n\nggplot2\n\nPaket ggplot2 ditujukan untuk menampilkan visualisasi yang lebih baik dengan tambahan kostumisasi yang lebih lengkap dibandingkan fungsi plot()\n\nreadr, readxl, dan haven\n\nMerupakan paket yang diperlukan untuk melakukan import dan export data dengan format csv, xlsx, spv, dsb."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#instalasi-paket",
+    "href": "presentations/instalasi-paket-r/index.html#instalasi-paket",
+    "title": "Instalasi Paket di R",
+    "section": "Instalasi Paket",
+    "text": "Instalasi Paket\nInstalasi paket pada R memerlukan koneksi internet, karena paket diunduh dari sebuah server. Fungsi untuk melakukan instalisasi paket adalah install.packages(\"nama.paket\", dependencies = TRUE). Tambahan independencies = TRUE ditujukan agar proses instalasi paket juga diikuti dengan instalasi paket-paket yang lain seperti yang dicontohkan pada gambar berikut:\n\nBerikut adalah contoh instalasi paket tidyverse:\nBeberapa paket memerlukan instalasi yang cukup lama karena kecepatan download, ukuran paket yang cukup besar, dan atau banyak paket yang juga harus diinstal (dependencies)"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#aktivasi-paket",
+    "href": "presentations/instalasi-paket-r/index.html#aktivasi-paket",
+    "title": "Instalasi Paket di R",
+    "section": "Aktivasi Paket",
+    "text": "Aktivasi Paket\nFungsi-fungsi pada paket yang telah terinstal hanya dapat digunakan jika paket telah diaktifkan. Untuk mengaktifkan paket, gunakan fungsi library(nama.paket)."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\n\n\nKita akan mencoba beberapa fungsi yang dapat digunakan pada paket tidyverse.\nSeperti yang telah dijelaskan sebelumnya bahwa paket tidyverse digunakan untuk melakukan manajemen data."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nkita akan menggunakan data iris yang telah tersedia di R. Gunakan kode berikut untuk mengaktifkan data iris:\n\ndata(iris)\n\nKemudian kita akan mencoba membuat diagram pencar dan diagram kotak."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-pada-r",
+    "href": "presentations/instalasi-paket-r/index.html#paket-pada-r",
+    "title": "Instalasi Paket di R",
+    "section": "Paket pada R",
+    "text": "Paket pada R\n\n\nPaket pada R merupakan kumpulan fungsi yang siap digunakan oleh pengguna R.\nSetiap paket memiliki berbagai macam fungsi yang dapat digunakan untuk kebutuhan tertentu.\nSemisal paket ggplot2 merupakan paket yang ditujukan untuk membuat grafik yang lebih menarik (seperti contoh sebelumnya)."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-pada-r-1",
+    "href": "presentations/instalasi-paket-r/index.html#paket-pada-r-1",
+    "title": "Instalasi Paket di R",
+    "section": "Paket pada R",
+    "text": "Paket pada R\n\n\nHampir semua paket pada R tidak berdiri sendiri, artinya fungsi-fungsi yang dibuat memerlukan fungsi-fungsi yang tersedia dipaket lain.\nHal ini ditujukan untuk melakukan efisiensi baik dalam pengembangan maupun penggunaan.\nSehingga dalam instalasi paket kita juga harus menyertakan informasi bahwa kita juga akan menginstal paket-paket lain yang dibutuhkan (dependencies)."
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-untuk-manajemen-data-tidyverse",
+    "href": "presentations/instalasi-paket-r/index.html#paket-untuk-manajemen-data-tidyverse",
+    "title": "Instalasi Paket di R",
+    "section": "Paket untuk Manajemen Data tidyverse",
+    "text": "Paket untuk Manajemen Data tidyverse\nTidyverse merupakan paket lengkap yang terdiri dari beberapa paket untuk keperluan manajemen data seperti dplyr dan tidyr.\nInstalasi\n\noptions(timeout = 10000) # hanya dibutuhkan saat koneksi internet lambat\n\ninstall.packages(\"tidyverse\")\n\nAktivasi Paket\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-1",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-1",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\nPertama kita akan siapkan data sederhana yang akan kita gunakan selanjutnya:\n\nhipertensi &lt;- rep(c(\"Ya\", \"Tidak\"), 5)\nparitas &lt;- c(5, 3, 1, 3, 2, 2, 7, 2, 0, 1)\nusia &lt;- c(23, 27, 28, 31, 31, NA, 29, 23, 37, 22)\npendidikan &lt;- c(\"SD\", \"SD\", \"SMP\", \"SMA\", \"SD\", \"SMP\", \"SMA\", \"SMA\", \"SD\", \"SMA\")\nekonomi &lt;- c(\"Rendah\", \"Rendah\", \"Menengah\", \"Rendah\", \"Menengah\", \"Menengah\", \"Tinggi\", \"Menengah\", \"Tinggi\", \"Rendah\")\n\nmydata &lt;- data.frame(\n  hipertensi,\n  paritas,\n  usia,\n  pendidikan,\n  ekonomi\n)"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-2",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-2",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\n\n\n\n\n\nhipertensi\nparitas\nusia\npendidikan\nekonomi\n\n\n\n\nYa\n5\n23\nSD\nRendah\n\n\nTidak\n3\n27\nSD\nRendah\n\n\nYa\n1\n28\nSMP\nMenengah\n\n\nTidak\n3\n31\nSMA\nRendah\n\n\nYa\n2\n31\nSD\nMenengah\n\n\nTidak\n2\nNA\nSMP\nMenengah\n\n\nYa\n7\n29\nSMA\nTinggi\n\n\nTidak\n2\n23\nSMA\nMenengah\n\n\nYa\n0\n37\nSD\nTinggi\n\n\nTidak\n1\n22\nSMA\nRendah"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\nFungsi filter() digunakan untuk menyeleksi data berdasarkan ketentuan:\n\n==, jika sama dengan nilai tertentu\n&gt;= dan &lt;=, jika lebih/kurang dari sama dengan nilai tertentu\n&gt; dan &lt;, jika lebih/kurang dari nilai tertentu\n!=, jika tidak sama dengan nilai tertentu"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter-1",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter-1",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\nSemisal kita ingin memilih data dengan usia yang kurang dari 30 tahun:\n\nmydata %&gt;% \n  filter(usia &lt; 30)\n\n\n\n  hipertensi paritas usia pendidikan  ekonomi\n1         Ya       5   23         SD   Rendah\n2      Tidak       3   27         SD   Rendah\n3         Ya       1   28        SMP Menengah\n4         Ya       7   29        SMA   Tinggi\n5      Tidak       2   23        SMA Menengah\n6      Tidak       1   22        SMA   Rendah"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter-2",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-tidyverse-fungsi-filter-2",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\n[Latihan Mandiri] Sekarang kita dapat melakukan percobaan penyeleksian dengan berbagai macam ketentuan:\n\nparitas lebih dari samadengan 3\nhipertensi sama dengan \"YA\"\nekonomi rendah"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-untuk-visualisasi-ggplot2",
+    "href": "presentations/instalasi-paket-r/index.html#paket-untuk-visualisasi-ggplot2",
+    "title": "Instalasi Paket di R",
+    "section": "Paket untuk Visualisasi ggplot2",
+    "text": "Paket untuk Visualisasi ggplot2\nPaket ggplot2 ditujukan untuk menampilkan visualisasi yang lebih baik dengan tambahan kostumisasi yang lebih lengkap dibandingkan fungsi plot()\nInstalasi\n\ninstall.packages(\"ggplot2\")\n\nAktivasi Paket\n\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-1",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-1",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Pencar\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Sepal.Length, y = Sepal.Width)) + \n  \n  ## Jenis Diagram: Pencar\n  geom_point() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-2",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-2",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Pencar"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-3",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-3",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Kotak\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Species, y = Sepal.Length)) + \n  \n  ## Jenis Diagram: Boxplot\n  geom_boxplot() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-4",
+    "href": "presentations/instalasi-paket-r/index.html#contoh-penggunaan-ggplot2-4",
+    "title": "Instalasi Paket di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Kotak"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-untuk-import-export-data",
+    "href": "presentations/instalasi-paket-r/index.html#paket-untuk-import-export-data",
+    "title": "Instalasi Paket di R",
+    "section": "Paket untuk Import & Export Data",
+    "text": "Paket untuk Import & Export Data\n\n\nTerdapat beberapa paket yang dapat digunakan untuk import dan export data.\nUntuk data tabel, paket yang dapat digunakan ialah readr, readxl, dan haven\nreadr, untuk import & export data dengan format tabel seperti csv\nreadxl, untuk import & export data dengan format Ms. Excel\nhaven, untuk import & export data dengan format aplikasi olah data lainnya"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#paket-untuk-import-export-data-1",
+    "href": "presentations/instalasi-paket-r/index.html#paket-untuk-import-export-data-1",
+    "title": "Instalasi Paket di R",
+    "section": "Paket untuk Import & Export Data",
+    "text": "Paket untuk Import & Export Data\n\nR Studio memberikan kemudahan dalam import data dalam berbagai format.\nKita dapat mengunakan icon Import Dataset pada Tab Environment untuk import data, dan fungsi berikut untuk export data:\n\nwrite_csv() atau write_delim() untuk export csv\nwrite_dta() export ke format dta Stata\nwrite_sav() export ke format sav SPSS\nwrite_xpt() export ke format xpt SAS"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#kesimpulan-1",
+    "href": "presentations/instalasi-paket-r/index.html#kesimpulan-1",
+    "title": "Instalasi Paket di R",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\n\n\nPaket pada R merupakan kumpulan fungsi-fungsi sangat penting dalam proses pengolahan data.\nNamun, kita tidak harus menggunakan semua fungsi yang tersedia. Cukup pada fungsi-fungsi umum untuk kebutuhan pengolahan data.\nPaket penting dalam manajemen data adalah tidyverse dan dalam visualisasi adalah ggplot2"
+  },
+  {
+    "objectID": "presentations/instalasi-paket-r/index.html#kesimpulan-2",
+    "href": "presentations/instalasi-paket-r/index.html#kesimpulan-2",
+    "title": "Instalasi Paket di R",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\n\n\nSangat penting mempelajari, memahami, dan mempraktikkan penggunaan Operator Hubungan dan Operator Logika untuk mempermudahkan dalam melakukan manajemen data\nMeski paket telah memiliki fungsi-fungsi yang kita butuhkan, kita tetap harus menyusun kode untuk menyesuaikan kebutuhan pengolahan data."
+  }
+]
