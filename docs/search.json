@@ -320,5 +320,271 @@
     "title": "Instalasi Paket di R",
     "section": "Kesimpulan",
     "text": "Kesimpulan\n\n\nSangat penting mempelajari, memahami, dan mempraktikkan penggunaan Operator Hubungan dan Operator Logika untuk mempermudahkan dalam melakukan manajemen data\nMeski paket telah memiliki fungsi-fungsi yang kita butuhkan, kita tetap harus menyusun kode untuk menyesuaikan kebutuhan pengolahan data."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\n\n\nTak jarang kita harus mengolah data yang tidak kita ketahui isi datanya\nOleh karenanya, mempelajari dan memahami data yang akan kita olah adalah hal penting sebelum menentukan metode analisisnya.\nUntuk itu, kita perlu mempelajari langkah-langkah dan teknik eksplorasi data."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nCoba perhatikan data berikut:\n\n\n\n\n\nX\nusia\njk\npendidikan\nimt\n\n\n\n\n34\nNA\nP\nmenengah\nBerat Badan kurang\n\n\n37\n56\npria\nNA\nBB lebih\n\n\n60\n22\nwanita\nNA\nobesitas\n\n\n113\n48\npria\nNA\nobesitas\n\n\n144\nNA\npria\nTinggi\nNormal\n\n\n184\nNA\nwanita\nTinggi\nBerat Badan kurang\n\n\n250\nNA\npria\nTinggi\nobesitas\n\n\n374\n29\nwanita\nNA\nberat badan lebih\n\n\n396\n19\nwanita\nNA\nNormal\n\n\n409\nNA\npria\ndasar\nBerat Badan kurang"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-3",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-3",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nSelanjutnya akan kita coba untuk menghitung rata-rata dari sebuah vektor:\n\nmydata &lt;- c(6, 7, 6, 8, 2, 6, 5, 5, 3, 9)\nrataan(mydata)\n\n\n\n[1] 5.7"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-4",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-4",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikutnya kita akan gunakan fungsi yang sudah tersedia pada R, yaitu mean():\n\nmydata &lt;- c(6, 7, 6, 8, 2, 6, 5, 5, 3, 9)\nmean(mydata)\n\n[1] 5.7\n\n\nDengan fungsi-fungsi yang telah tersedia (tersedia dalam sebuah paket fungsi), kita mampu melakukan pengolahan data dengan lebih cepat tanpa harus menyusun fungsi-fungsi yang rumit."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-5",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-5",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nNamun anda harus tetap menyusun kode-kode sesuai dengan tujuan analisis anda. Seperti dalam mempersiapkan data untuk dianalisis, menyusun grafis yang mudah dipahami, eksplorasi data untuk mempersiapkan analisis, dsb."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-6",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-6",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikut contoh diagram pencar dengan paket base:\n\ndata(iris)\n\nplot(iris$Sepal.Length, iris$Sepal.Width, \n     main = \"Diagram Titik\", \n     xlab = \"Sepal.Length\", \n     ylab = \"Sepal.Width\")"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-7",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-7",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-8",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-8",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nBerikut contoh diagram pencar dengan paket ggplot2:\n\ndata(iris)\n\nggplot(iris, aes(Sepal.Length, Sepal.Width)) +\n  geom_point(aes(color = Species)) +\n  ggtitle(label = \"Diagram Titik\", subtitle = \"Latihan R\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-9",
+    "href": "presentations/eksplorasi-data-part-1/index.html#pendahuluan-9",
+    "title": "Eksplorasi Data di R",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-pada-r",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-pada-r",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket pada R",
+    "text": "Paket pada R\n\n\nHampir semua paket pada R tidak berdiri sendiri, artinya fungsi-fungsi yang dibuat memerlukan fungsi-fungsi yang tersedia dipaket lain.\nHal ini ditujukan untuk melakukan efisiensi baik dalam pengembangan maupun penggunaan.\nSehingga dalam instalasi paket kita juga harus menyertakan informasi bahwa kita juga akan menginstal paket-paket lain yang dibutuhkan (dependencies)."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-pada-r-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-pada-r-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket pada R",
+    "text": "Paket pada R\n\n\nHampir semua paket pada R tidak berdiri sendiri, artinya fungsi-fungsi yang dibuat memerlukan fungsi-fungsi yang tersedia dipaket lain.\nHal ini ditujukan untuk melakukan efisiensi baik dalam pengembangan maupun penggunaan.\nSehingga dalam instalasi paket kita juga harus menyertakan informasi bahwa kita juga akan menginstal paket-paket lain yang dibutuhkan (dependencies)."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-manajemen-data-tidyverse",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-manajemen-data-tidyverse",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket untuk Manajemen Data tidyverse",
+    "text": "Paket untuk Manajemen Data tidyverse\nTidyverse merupakan paket lengkap yang terdiri dari beberapa paket untuk keperluan manajemen data seperti dplyr dan tidyr.\nInstalasi\n\noptions(timeout = 10000) # hanya dibutuhkan saat koneksi internet lambat\n\ninstall.packages(\"tidyverse\")\n\nAktivasi Paket\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\n\n\nKita akan mencoba beberapa fungsi yang dapat digunakan pada paket tidyverse.\nSeperti yang telah dijelaskan sebelumnya bahwa paket tidyverse digunakan untuk melakukan manajemen data."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\nPertama kita akan siapkan data sederhana yang akan kita gunakan selanjutnya:\n\nhipertensi &lt;- rep(c(\"Ya\", \"Tidak\"), 5)\nparitas &lt;- c(5, 3, 1, 3, 2, 2, 7, 2, 0, 1)\nusia &lt;- c(23, 27, 28, 31, 31, NA, 29, 23, 37, 22)\npendidikan &lt;- c(\"SD\", \"SD\", \"SMP\", \"SMA\", \"SD\", \"SMP\", \"SMA\", \"SMA\", \"SD\", \"SMA\")\nekonomi &lt;- c(\"Rendah\", \"Rendah\", \"Menengah\", \"Rendah\", \"Menengah\", \"Menengah\", \"Tinggi\", \"Menengah\", \"Tinggi\", \"Rendah\")\n\nmydata &lt;- data.frame(\n  hipertensi,\n  paritas,\n  usia,\n  pendidikan,\n  ekonomi\n)"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse",
+    "text": "Contoh Penggunaan tidyverse\n\n\n\n\n\nhipertensi\nparitas\nusia\npendidikan\nekonomi\n\n\n\n\nYa\n5\n23\nSD\nRendah\n\n\nTidak\n3\n27\nSD\nRendah\n\n\nYa\n1\n28\nSMP\nMenengah\n\n\nTidak\n3\n31\nSMA\nRendah\n\n\nYa\n2\n31\nSD\nMenengah\n\n\nTidak\n2\nNA\nSMP\nMenengah\n\n\nYa\n7\n29\nSMA\nTinggi\n\n\nTidak\n2\n23\nSMA\nMenengah\n\n\nYa\n0\n37\nSD\nTinggi\n\n\nTidak\n1\n22\nSMA\nRendah"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\nFungsi filter() digunakan untuk menyeleksi data berdasarkan ketentuan:\n\n==, jika sama dengan nilai tertentu\n&gt;= dan &lt;=, jika lebih/kurang dari sama dengan nilai tertentu\n&gt; dan &lt;, jika lebih/kurang dari nilai tertentu\n!=, jika tidak sama dengan nilai tertentu"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\nSemisal kita ingin memilih data dengan usia yang kurang dari 30 tahun:\n\nmydata %&gt;% \n  filter(usia &lt; 30)\n\n\n\n  hipertensi paritas usia pendidikan  ekonomi\n1         Ya       5   23         SD   Rendah\n2      Tidak       3   27         SD   Rendah\n3         Ya       1   28        SMP Menengah\n4         Ya       7   29        SMA   Tinggi\n5      Tidak       2   23        SMA Menengah\n6      Tidak       1   22        SMA   Rendah"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-tidyverse-fungsi-filter-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan tidyverse fungsi filter()",
+    "text": "Contoh Penggunaan tidyverse fungsi filter()\n[Latihan Mandiri] Sekarang kita dapat melakukan percobaan penyeleksian dengan berbagai macam ketentuan:\n\nparitas lebih dari samadengan 3\nhipertensi sama dengan \"YA\"\nekonomi rendah"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-visualisasi-ggplot2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-visualisasi-ggplot2",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket untuk Visualisasi ggplot2",
+    "text": "Paket untuk Visualisasi ggplot2\nPaket ggplot2 ditujukan untuk menampilkan visualisasi yang lebih baik dengan tambahan kostumisasi yang lebih lengkap dibandingkan fungsi plot()\nInstalasi\n\ninstall.packages(\"ggplot2\")\n\nAktivasi Paket\n\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nkita akan menggunakan data iris yang telah tersedia di R. Gunakan kode berikut untuk mengaktifkan data iris:\n\ndata(iris)\n\nKemudian kita akan mencoba membuat diagram pencar dan diagram kotak."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Pencar\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Sepal.Length, y = Sepal.Width)) + \n  \n  ## Jenis Diagram: Pencar\n  geom_point() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Pencar"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-3",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-3",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Kotak\n\n## Inisiasi Data yang digunakan, \n## Nama Variabel X dan Nama Variabel Y\nggplot(data =  iris, mapping = aes(x = Species, y = Sepal.Length)) + \n  \n  ## Jenis Diagram: Boxplot\n  geom_boxplot() +\n  \n  ## Judul dan Subjudul\n  ggtitle(label = \"Diagram Pencar\", subtitle = \"Latihan GGPLOT2\") +\n  \n  ## X & Y Label\n  xlab(\"Sepal Length\") + ylab(\"Sepal Width\") +\n  \n  ## Tema Diagram\n  theme_bw()"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-4",
+    "href": "presentations/eksplorasi-data-part-1/index.html#contoh-penggunaan-ggplot2-4",
+    "title": "Eksplorasi Data di R",
+    "section": "Contoh Penggunaan ggplot2",
+    "text": "Contoh Penggunaan ggplot2\nDiagram Kotak"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-import-export-data",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-import-export-data",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket untuk Import & Export Data",
+    "text": "Paket untuk Import & Export Data\n\n\nTerdapat beberapa paket yang dapat digunakan untuk import dan export data.\nUntuk data tabel, paket yang dapat digunakan ialah readr, readxl, dan haven\nreadr, untuk import & export data dengan format tabel seperti csv\nreadxl, untuk import & export data dengan format Ms. Excel\nhaven, untuk import & export data dengan format aplikasi olah data lainnya"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-import-export-data-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#paket-untuk-import-export-data-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Paket untuk Import & Export Data",
+    "text": "Paket untuk Import & Export Data\n\nR Studio memberikan kemudahan dalam import data dalam berbagai format.\nKita dapat mengunakan icon Import Dataset pada Tab Environment untuk import data, dan fungsi berikut untuk export data:\n\nwrite_csv() atau write_delim() untuk export csv\nwrite_dta() export ke format dta Stata\nwrite_sav() export ke format sav SPSS\nwrite_xpt() export ke format xpt SAS"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#kesimpulan-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#kesimpulan-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\n\n\nSangat penting untuk memahami dan mempelajari data yang akan digunakan.\nSalah satu paket yang dapat digunakan untuk manajemen data adalah tidyverse\nIdentifikasi data dapat dilakukan dengan menggunakan fungsi str() atau glimpse() pada paket tidyverse\nPenentuan metode manajemen data bergantung pada tujuan analisis\nSangat disarankan untuk menentukan variabel analisis terlebih dahulu sebelum metode manajemen data yang lain."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#kesimpulan-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#kesimpulan-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\n\n\nSangat penting mempelajari, memahami, dan mempraktikkan penggunaan Operator Hubungan dan Operator Logika untuk mempermudahkan dalam melakukan manajemen data\nMeski paket telah memiliki fungsi-fungsi yang kita butuhkan, kita tetap harus menyusun kode untuk menyesuaikan kebutuhan pengolahan data."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data",
+    "text": "Investigasi Data\nPertama kita lihat struktur dari data tabel dengan menggunakan fungsi str() dan glimpse().\n\nstr(mydata)\n\n\nglimpse(mydata)"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data",
+    "text": "Investigasi Data\n\nstr(mydata)\n\n\n\n'data.frame':   500 obs. of  11 variables:\n $ X                    : int  1 2 3 4 5 6 7 8 9 10 ...\n $ usia                 : int  48 32 68 31 20 59 67 71 60 54 ...\n $ jk                   : chr  \"pria\" \"pria\" \"pria\" \"wanita\" ...\n $ pendidikan           : chr  \"Tinggi\" \"dasar\" \"menengah\" \"Tinggi\" ...\n $ imt                  : chr  \"Berat Badan kurang\" \"obesitas\" \"berat badan lebih\" \"berat badan lebih\" ...\n $ merokok              : chr  \"Merokok\" \"Merokok\" \"Tidak Pernah\" \"Tidak Pernah\" ...\n $ tekanan.darah        : num  120 126 128 107 104 ...\n $ kolesterol           : num  195 221 175 207 179 ...\n $ aktivitas.fisik      : int  6 4 6 6 6 3 6 7 5 5 ...\n $ skor.diet            : int  9 5 7 10 2 7 8 4 8 8 ...\n $ skor.kesehatan.mental: int  9 10 9 11 8 10 7 6 11 10 ..."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-str",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-str",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data str()",
+    "text": "Investigasi Data str()\n\nstr(mydata)\n\n\n\n'data.frame':   500 obs. of  11 variables:\n $ X                    : int  1 2 3 4 5 6 7 8 9 10 ...\n $ usia                 : int  48 32 68 31 20 59 67 71 60 54 ...\n $ jk                   : chr  \"pria\" \"pria\" \"pria\" \"wanita\" ...\n $ pendidikan           : chr  \"Tinggi\" \"dasar\" \"menengah\" \"Tinggi\" ...\n $ imt                  : chr  \"Berat Badan kurang\" \"obesitas\" \"berat badan lebih\" \"berat badan lebih\" ...\n $ merokok              : chr  \"Merokok\" \"Merokok\" \"Tidak Pernah\" \"Tidak Pernah\" ...\n $ tekanan.darah        : num  120 126 128 107 104 ...\n $ kolesterol           : num  195 221 175 207 179 ...\n $ aktivitas.fisik      : int  6 4 6 6 6 3 6 7 5 5 ...\n $ skor.diet            : int  9 5 7 10 2 7 8 4 8 8 ...\n $ skor.kesehatan.mental: int  9 10 9 11 8 10 7 6 11 10 ..."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-glimpse",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-glimpse",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data glimpse()",
+    "text": "Investigasi Data glimpse()\n\nglimpse(mydata)\n\n\n\nRows: 500\nColumns: 11\n$ X                     &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 1…\n$ usia                  &lt;int&gt; 48, 32, 68, 31, 20, 59, 67, 71, 60, 54, 69, 31, …\n$ jk                    &lt;chr&gt; \"pria\", \"pria\", \"pria\", \"wanita\", \"pria\", \"wanit…\n$ pendidikan            &lt;chr&gt; \"Tinggi\", \"dasar\", \"menengah\", \"Tinggi\", \"dasar\"…\n$ imt                   &lt;chr&gt; \"Berat Badan kurang\", \"obesitas\", \"berat badan l…\n$ merokok               &lt;chr&gt; \"Merokok\", \"Merokok\", \"Tidak Pernah\", \"Tidak Per…\n$ tekanan.darah         &lt;dbl&gt; 120.0, 126.2, 127.6, 107.1, 103.9, 116.6, 121.1,…\n$ kolesterol            &lt;dbl&gt; 195.4, 221.1, 175.2, 207.3, 179.4, 145.1, 185.8,…\n$ aktivitas.fisik       &lt;int&gt; 6, 4, 6, 6, 6, 3, 6, 7, 5, 5, 3, 5, 5, 6, 8, 5, …\n$ skor.diet             &lt;int&gt; 9, 5, 7, 10, 2, 7, 8, 4, 8, 8, 7, 9, 6, 8, 6, 7,…\n$ skor.kesehatan.mental &lt;int&gt; 9, 10, 9, 11, 8, 10, 7, 6, 11, 10, 9, 6, 12, 9, …"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-missing-values",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-missing-values",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data missing values",
+    "text": "Investigasi Data missing values\n\nmydata %&gt;%\n  summarise_all(~ sum(is.na(.)))\n\n\n\n  X usia jk pendidikan imt merokok tekanan.darah kolesterol aktivitas.fisik\n1 0    5  0          5   0       5             0          0               0\n  skor.diet skor.kesehatan.mental\n1         0                     5"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data Teks/Kategorik",
+    "text": "Investigasi Data Teks/Kategorik\nAnda dapat melakukan ini dengan 2 cara:\n\nUbah tipe data teks (character) ke kategorik (factor), setelah itu gunakan fungsi summary()\nMenggunakan fungsi group_by(), summarise() dan n()"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik-1",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik-1",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data Teks/Kategorik",
+    "text": "Investigasi Data Teks/Kategorik\nDengan mengubah tipe data teks ke kategorik\n\nmydata$pendidikan &lt;- as.factor(mydata$pendidikan)\nsummary(mydata)\n\n\n\n       X              usia            jk               pendidikan \n Min.   :  1.0   Min.   :18.00   Length:500         dasar   :156  \n 1st Qu.:125.8   1st Qu.:34.00   Class :character   menengah:165  \n Median :250.5   Median :48.00   Mode  :character   tinggi  :  1  \n Mean   :250.5   Mean   :48.85                      Tinggi  :173  \n 3rd Qu.:375.2   3rd Qu.:63.00                      NA's    :  5  \n Max.   :500.0   Max.   :80.00                                    \n                 NA's   :5                                        \n     imt           \n Length:500        \n Class :character  \n Mode  :character"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik-2",
+    "href": "presentations/eksplorasi-data-part-1/index.html#investigasi-data-tekskategorik-2",
+    "title": "Eksplorasi Data di R",
+    "section": "Investigasi Data Teks/Kategorik",
+    "text": "Investigasi Data Teks/Kategorik\nDengan mengubah tipe data teks ke kategorik\n\nmydata %&gt;% \n  group_by(pendidikan) %&gt;% \n  summarise(jumlah = n())\n\n\n\n# A tibble: 5 × 2\n  pendidikan jumlah\n  &lt;chr&gt;       &lt;int&gt;\n1 Tinggi        173\n2 dasar         156\n3 menengah      165\n4 tinggi          1\n5 &lt;NA&gt;            5"
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#data-manipulation-mutation",
+    "href": "presentations/eksplorasi-data-part-1/index.html#data-manipulation-mutation",
+    "title": "Eksplorasi Data di R",
+    "section": "Data Manipulation & Mutation",
+    "text": "Data Manipulation & Mutation\n\nData Manipulation ialah mengubah data untuk dianalisis, misalnya mengurutkan, tanpa mengubah data asli.\nData Mutation ialah menambahkan atau memodifikasi kolom dalam data, mengubah data asli secara langsung."
+  },
+  {
+    "objectID": "presentations/eksplorasi-data-part-1/index.html#selecting-filtering",
+    "href": "presentations/eksplorasi-data-part-1/index.html#selecting-filtering",
+    "title": "Eksplorasi Data di R",
+    "section": "Selecting & Filtering",
+    "text": "Selecting & Filtering\n\nSelecting ialah proses pemilihan variabel/kolom.\nFiltering ialah proses pemilihan observasi dengan kriteria yang ditentukan."
   }
 ]
